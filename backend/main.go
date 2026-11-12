@@ -25,8 +25,8 @@ type Question struct {
 }
 
 type Submission struct {
-	QuizID      int         `json:"id"`
-	StudentName string      `json:"StudentName"`
+	QuizID      int         `json:"quizId"`
+	StudentName string      `json:"studentName"`
 	Answers     map[int]int `json:"answers"`
 }
 
